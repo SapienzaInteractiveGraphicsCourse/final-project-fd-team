@@ -2116,6 +2116,8 @@ var createGUI = function(scene, showScene) {
     switch (showScene) {
         case 0:
             var advancedTexture1 = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("UI1", true, scene);
+            advancedTexture1.background = "black";
+
 
             var imagemenu1 = new BABYLON.GUI.Image("imagemenu1", "textures/sky.png");
 			
