@@ -404,7 +404,7 @@ var createScene = function () {
         head0.position = new BABYLON.Vector3(70, 23, 0);
         var a = BABYLON.CSG.FromMesh(head0);
 
-        var totbody = BABYLON.MeshBuilder.CreateBox("anibot",{ height: 24, width: 10, depth: 20}, scene);
+        var totbody = BABYLON.MeshBuilder.CreateBox("totbody",{ height: 24, width: 10, depth: 20}, scene);
         totbody.position = new BABYLON.Vector3(70, 23, 0);
 
 
