@@ -828,7 +828,7 @@ var createScene = function () {
             
             }
     
-        cleaner.translate(BABYLON.Axis.X, 4, BABYLON.Space.LOCAL);
+        cleaner.translate(BABYLON.Axis.X, 0.65, BABYLON.Space.LOCAL);
        
         wheelRB.rotation.y += 0.2;
         wheelLB.rotation.y += 0.2;
