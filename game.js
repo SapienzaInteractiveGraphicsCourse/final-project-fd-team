@@ -2117,7 +2117,7 @@ var createGUI = function(scene, showScene) {
         case 0:
             var advancedTexture1 = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("UI1", true, scene);
 
-            var imagemenu1 = new BABYLON.GUI.Image("imagemenu1", "textures/lightBlueSkyBox/lightBlueSky_NZ.jpeg");
+            var imagemenu1 = new BABYLON.GUI.Image("imagemenu1", "textures/lightBlueSkyBox/lightBlueSky_px.jpeg");
 			
 	        advancedTexture1.addControl(imagemenu1);
 
