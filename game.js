@@ -930,10 +930,10 @@ var createScene = function () {
             ground.physicsImpostor = new BABYLON.PhysicsImpostor(ground, BABYLON.PhysicsImpostor.BoxImpostor, { mass: 0, restitution:0.9}, scene);
             ground.checkCollisions = true;
             const groundMat = new BABYLON.StandardMaterial("groundMat");
-            groundMat.diffuseTexture = new BABYLON.Texture("textures/sampiet.jpg", scene);
+            groundMat.diffuseTexture = new BABYLON.Texture("textures/sampie.jpeg", scene);
             groundMat.diffuseTexture.uScale = 30;
             groundMat.diffuseTexture.vScale = 30;
-            groundMat.specularTexture = new BABYLON.Texture("textures/sampiet.jpg", scene);
+            groundMat.specularTexture = new BABYLON.Texture("textures/sampie.jpeg", scene);
             ground.material = groundMat; //Place the material property of the ground
            
 
