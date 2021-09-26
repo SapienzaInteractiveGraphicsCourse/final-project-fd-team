@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <title>Pollution battle</title>
+        <link rel="shortcut icon" href="textures/favicon.ico">
+
+        <!-- Babylon.js -->
+        <script src="./loaders/babylon.js"></script>
+        <script src="./loaders/babylon.objFileLoader.js"></script>
+        <script src="./loaders/cannon.js"></script>
+        <script src="./loaders/babylonjs.loaders.js"></script>
+        <script src="./loaders/babylonjs.proceduralTextures.js"></script>
+        <script src="./loaders/babylon.viewer.js"></script>
+        <script src="./loaders/ammo.js"></script>
+        <script src="./loaders/Oimo.js"></script>
+        <script src="./loaders/babylon.grassProceduralTexture.js"></script>
+        <script src="./loaders/babylon.gui.js"></script>
+        <script src="./loaders/babylon.glTF1FileLoader.js"></script>
+        <script src="./loaders/babylon.glTFFileLoader.js"></script>
+        <script src="./loaders/babylon.objSerializer.js"></script>
+        <script src="./loaders/babylonjs.serializers.js"></script>
+        <script src="./loaders/babylonjs.materials.min.js"></script>
+        <script src="https://preview.babylonjs.com/inspector/babylon.inspector.bundle.js"></script>
+
+        <style>
+            html, body {
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            #fps {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.699);
+            border: 2px solid rgb(10, 219, 10);
+            border-radius: 20%;
+            text-align: center;
+            font-size: 16px;
+            color: white;
+            top: 15px;
+            left: 10px;
+            width: 60px;
+            height: 20px;
+        }
+
+            #canvas {
+                width: 100%;
+                height: 100%;
+               
+            }
+            #loadingScreen {
+            position: absolute;
+            line-height: 20;
+            width: 100%;
+            height: 100%;
+            color: rgb(0, 0, 0);
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 200%;
+            font-weight: bold;
+            text-align: center;
+            background-color: #1dd855;
+            z-index: 9999;
+            display: block;
+        }
+        </style>
+    </head>
+<body>
+    <div id="loadingScreen"></div>
+    <canvas id="canvas"></canvas>
+    <div id="fps">0</div>
+    <script src="game.js"></script>
+</body>
+</html>
