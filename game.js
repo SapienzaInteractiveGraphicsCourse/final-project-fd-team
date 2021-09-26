@@ -828,7 +828,7 @@ var createScene = function () {
             
             }
     
-        cleaner.translate(BABYLON.Axis.X, 0.65, BABYLON.Space.LOCAL);
+        cleaner.translate(BABYLON.Axis.X, 0.75, BABYLON.Space.LOCAL);
        
         wheelRB.rotation.y += 0.2;
         wheelLB.rotation.y += 0.2;
@@ -2617,7 +2617,7 @@ var createGUI = function(scene, showScene) {
             win2.top = "20%";
             win2.text = "Thanks for helping save the planet from pollution!";
             win2.color = "white";
-            win2.fontSize = 70;
+            win2.fontSize = 65;
             win2.verticalAlignment = BABYLON.GUI.Control.VERTICAL_ALIGNMENT_CENTER;
           advancedTexturewin.addControl(win2);
 
